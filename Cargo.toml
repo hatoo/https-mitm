@@ -1,0 +1,16 @@
+[package]
+name = "https-mitm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+bytes = "1.5.0"
+hyper = { version = "0.14.27", features = ["full"] }
+rcgen = "0.11.3"
+rustls = "0.21.7"
+tokio = { version = "1.33.0", features = ["full"] }
+tokio-rustls = "0.24.1"
+webpki-roots = "0.25.2"
